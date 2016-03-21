@@ -1,62 +1,78 @@
-body { 
-  background: url(http://landing.oxanaweb.com/images/waterfal.jpg) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-
 .title {
-	text-align: center;
-	color: #fff;
-	font-family: 'Merriweather', serif;
-	font-weight: bold;
-	text-shadow:5px 5px 5px #000000;
-	margin-top: 60px;
+  text-align: center;
+  color: #fff;
+  font-family: 'Merriweather', serif;
+  font-weight: bold;
+  text-shadow: 5px 5px 5px #000000;
+  margin-top: 60px;
 }
 
 .wrap {
-	text-align: center;
-	width: 300px;
-	margin: 0 auto;
-	background-color: rgba(3, 0, 0, 0.6);
-	color: yellow;
-	padding: 10px;
-	border-radius: 5px;
-	font-size: 28px;
-	margin-top: 30px;
+  text-align: center;
+  width: 300px;
+  margin: 0 auto;
+  background-color: rgba(3, 0, 0, 0.6);
+  color: yellow;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 28px;
+  margin-top: 30px;
 }
 
 #tmp {
-	background-color: transparent;
-	border-color: transparent;
-	padding: 10px;
-	color: #2e24fa;
+  background-color: transparent;
+  border-color: transparent;
+  padding: 10px;
+  color: #2e24fa;
 }
 
 #city {
-	font-size: 30px;
-	color: yellow;
-	font-weight: 700;
-	font-family: 'Merriweather', serif;
-	text-align: center;
-	text-transform: uppercase;
+  font-size: 30px;
+  color: yellow;
+  font-weight: 700;
+  font-family: 'Merriweather', serif;
+  text-align: center;
+  text-transform: uppercase;
 }
 
-#sky, #wind {
-	text-align: center;
-	color: #fff;
-	font-family: 'Merriweather', serif;
-	font-weight: bold;
+#sky,
+#wind {
+  text-align: center;
+  color: #fff;
+  font-family: 'Merriweather', serif;
+  font-weight: bold;
 }
 
-img {
-	background-color: white;
-	border-radius: 5px;
-	margin: 0 auto;
+img#icon {
+  background-color: white;
+  border-radius: 5px;
+  margin: 0 auto;
 }
 
 button:focus {
-    outline: 0;
+  outline: 0;
 }
 
+#page-wrap {
+  position: relative;
+}
+
+img.bg {
+  /* Set rules to fill background */
+  min-height: 100%;
+  min-width: 1024px;
+  /* Set up proportionate scaling */
+  width: 100%;
+  height: auto;
+  /* Set up positioning */
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+@media screen and (max-width: 1024px) {
+  img.bg {
+    left: 50%;
+    margin-left: -512px;
+  }
+}
