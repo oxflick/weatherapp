@@ -1,0 +1,62 @@
+body { 
+  background: url(https://placeimg.com/1000/700/nature) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.title {
+	text-align: center;
+	color: #fff;
+	font-family: 'Merriweather', serif;
+	font-weight: bold;
+	text-shadow:5px 5px 5px #000000;
+	margin-top: 60px;
+}
+
+.wrap {
+	text-align: center;
+	width: 300px;
+	margin: 0 auto;
+	background-color: rgba(3, 0, 0, 0.6);
+	color: yellow;
+	padding: 10px;
+	border-radius: 5px;
+	font-size: 28px;
+	margin-top: 30px;
+}
+
+#tmp {
+	background-color: transparent;
+	border-color: transparent;
+	padding: 10px;
+	color: #2e24fa;
+}
+
+#city {
+	font-size: 30px;
+	color: yellow;
+	font-weight: 700;
+	font-family: 'Merriweather', serif;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+#sky, #wind {
+	text-align: center;
+	color: #fff;
+	font-family: 'Merriweather', serif;
+	font-weight: bold;
+}
+
+img {
+	background-color: white;
+	border-radius: 5px;
+	margin: 0 auto;
+}
+
+button:focus {
+    outline: 0;
+}
+
